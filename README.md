@@ -1,7 +1,6 @@
 # Exercise Roadmap
 
-## Description
-A Flutter app for tracking and planning exercises. Supports Android/iOS with features like workout tracking, goal setting, and progress monitoring.
+## DescriptionSupports Android/iOS with features like workout tracking, goal setting, and progress monitoring.
 
 ## Setup & Compilation Instructions
 1. Clone the repo:  
