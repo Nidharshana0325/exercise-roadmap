@@ -1,16 +1,36 @@
-# exercise_map
+# Exercise Roadmap
 
-A new Flutter project.
+## Description
+A Flutter app for tracking and planning exercises. Supports Android/iOS with features like workout tracking, goal setting, and progress monitoring.
 
-## Getting Started
+## Setup & Compilation Instructions
+1. Clone the repo:  
+   `git clone https://github.com/Nidharshana0325/exercise-roadmap.git`
+2. Install dependencies:  
+   `flutter pub get`
+3. Run the project:  
+   `flutter run` (Android/iOS)
 
-This project is a starting point for a Flutter application.
+### Build for Production
+- **Android**: `flutter build apk --release`
+- **iOS**: `flutter build ios --release`
 
-A few resources to get you started if this is your first Flutter project:
+## Resources - Demo and Documentation
+- [Project Files and Assets](https://drive.google.com/drive/folders/14BjZj80-DCtmhp6wpu610I0im9GuvssZ?usp=sharing)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Architecture Overview
+- **State Management**: **Provider** for managing app state.
+- **Storage**: [SharedPreferences] for local data persistence.
+- **UI**: Organized into screens and widgets for easy navigation and scalability.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Design Decisions
+- **Provider** was chosen for state management due to its simplicity and flexibility.
+- **SharedPreferences** used for storing data locally, enabling offline functionality.
+- **Modular UI** design for maintainability and ease of adding new features.
+
+## Known Limitations
+- Limited offline support for some features.
+- Platform-specific limitations may arise (Android/iOS).
+
+
+
